@@ -7,5 +7,10 @@
 <body>
     <h1 th:text="${title}">Default Title</h1>
 
+<ul>
+    <li th:each="cheese : ${cheeses}" th:text="${cheese}"></li>
+</ul>
+
+
 </body>
 </html>
